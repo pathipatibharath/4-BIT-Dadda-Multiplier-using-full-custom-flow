@@ -109,10 +109,7 @@ Boolean Expression
 ```
 a_bar = ¬a
 ```
-Truth Table
-a	a_bar
-0	1
-1	0
+
 4.2 AND Gate
 Schematic
 ![AND gate](schematics/and_gate.png)
@@ -122,12 +119,7 @@ Boolean Expression
 ```
 ab = a · b
 ```
-Truth Table
-a	b	ab
-0	0	0
-0	1	0
-1	0	0
-1	1	1
+
 4.3 OR Gate
 Schematic
 ![OR gate](schematics/or_gate.png)
@@ -137,12 +129,7 @@ Boolean Expression
 ```
 a+b = a + b
 ```
-Truth Table
-a	b	a+b
-0	0	0
-0	1	1
-1	0	1
-1	1	1
+
 4.4 XOR Gate
 Schematic
 ![XOR gate](schematics/xor_gate.png)
@@ -152,12 +139,7 @@ Boolean Expression
 ```
 axorb = a ⊕ b = a·b' + a'·b
 ```
-Truth Table
-a	b	axorb
-0	0	0
-0	1	1
-1	0	1
-1	1	0
+
 ---
 5. Adders
 5.1 Half Adder
@@ -170,12 +152,7 @@ Boolean Expressions
 sum   = a ⊕ b
 carry = a · b
 ```
-Truth Table
-a	b	sum	carry
-0	0	0	0
-0	1	1	0
-1	0	1	0
-1	1	0	1
+
 5.2 Full Adder
 Schematic
 ![Full adder](schematics/full_adder.png)
@@ -186,16 +163,7 @@ Boolean Expressions
 sum   = a ⊕ b ⊕ c
 carry = a·b + c·(a ⊕ b)
 ```
-Truth Table
-a	b	c	sum	carry
-0	0	0	0	0
-0	0	1	1	0
-0	1	0	1	0
-0	1	1	0	1
-1	0	0	1	0
-1	0	1	0	1
-1	1	0	0	1
-1	1	1	1	1
+
 ---
 6. Top-Level Multiplier
 6.1 Schematic
