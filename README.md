@@ -215,7 +215,7 @@ A	B	A × B	P7 P6 P5 P4 P3 P2 P1 P0
 ---
 8. Layout
 8.1 Layout View
-![Layout](layout/dadda_mult_lay.png)
+![Layout](layout/dadda_mult_lay.jpeg)
 Theory
 The layout was drawn in Virtuoso Layout Suite XL for the gpdk090 process. Standard CMOS layout layers are used: Nwell, Poly, Pimp/Nimp diffusion, Contacts, and Metal1 onward for routing, with vias between metal layers. Transistors for each gate are placed in rows, with PMOS in n-well regions and NMOS in the substrate, and the VDD rails run along the top of the design. Signals are routed on Metal1/Metal2 and above.
 8.2 Verification Status
