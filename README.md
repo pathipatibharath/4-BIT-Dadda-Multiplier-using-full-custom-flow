@@ -15,7 +15,7 @@ A 4-bit × 4-bit unsigned multiplier built with a Dadda tree reduction scheme, d
 |------|-------|
 | Function | P[7:0] = A[3:0] × B[3:0] (unsigned) |
 | Architecture | Dadda tree (AND array + HA/FA reduction) |
-| Technology | gpdk090, 90 nm CMOS |
+| Technology | gpdk090, 90 nm Transmission gate logic |
 | Supply voltage | 1 V |
 | Temperature | 27 °C |
 | Transistor size | W = 120 nm, L = 100 nm (NMOS and PMOS) |
@@ -344,9 +344,6 @@ The screenshot shows the ADE L setup (`tran 0 100n moderate`, VDD = 1 V, T = 27 
 
 PDP and EDP use set 1. Set 2 gives about 457.2 fJ and 4.61 × 10⁻²¹ J·s, within 0.2 % of set 1.
 
-### 8.5 Handwritten Calculations
-![Hand calculation page 1](calculations/hand_calc_1.jpg)
-![Hand calculation page 2](calculations/hand_calc_2.jpg)
 
 ### 8.6 Note on the Raw ADE Values
 Delays and power are magnitudes, so the signs in the ADE table should be ignored:
