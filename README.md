@@ -308,7 +308,7 @@ To check a time instant, read `A` and `B` from the input plot and compare `p7…
 ## 8. Performance Analysis (Delay, Power, PDP, EDP)
 
 ### 8.1 ADE L Outputs
-![ADE L outputs](calculations/all_calculations.png)
+![ADE L outputs](outputs/all_calculations.png)
 
 The screenshot shows the ADE L setup (`tran 0 100n moderate`, VDD = 1 V, T = 27 °C, simulator `spectre aps`) and the measured outputs.
 
@@ -359,13 +359,6 @@ Delays and power are magnitudes, so the signs in the ADE table should be ignored
 
 The layout was drawn in Virtuoso Layout Suite XL for the gpdk090 process. Standard CMOS layers are used: Nwell, Poly, Pimp/Nimp diffusion, Contacts and Metal1 onward for routing, with vias between metal layers. Transistors for each gate are placed in rows, with PMOS in n-well regions and NMOS in the substrate, and the VDD rails run along the top of the design. Signals are routed on Metal1/Metal2 and above.
 
-### 9.2 Verification Status
-
-| Check | Status |
-|-------|--------|
-| DRC (Design Rule Check) | ☐ |
-| LVS (Layout vs. Schematic) | ☐ |
-| PEX / post-layout simulation | ☐ |
 
 ---
 
@@ -431,5 +424,5 @@ Released under the MIT License. See `LICENSE`.
 Department of Electronics and Communication Engineering, IIITDM Kurnool
 
 Under the guidance of: <br>
-[Guide Name] <br>
+[Dr.P Rangababu] <br>
 [Designation], Department of Electronics and Communication Engineering, IIITDM Kurnool
