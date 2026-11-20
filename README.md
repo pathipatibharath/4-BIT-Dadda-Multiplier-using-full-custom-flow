@@ -387,8 +387,6 @@ The layout was drawn in Virtuoso Layout Suite XL for the gpdk090 process. Standa
 │   └── transient_outputs.png
 ├── calculations/
 │   ├── all_calculations.png
-│   ├── hand_calc_1.jpg
-│   └── hand_calc_2.jpg
 └── layout/
     └── dadda_mult_lay.jpeg
 ```
@@ -424,5 +422,5 @@ Released under the MIT License. See `LICENSE`.
 Department of Electronics and Communication Engineering, IIITDM Kurnool
 
 Under the guidance of: <br>
-[Dr.P Rangababu] <br>
-[Designation], Department of Electronics and Communication Engineering, IIITDM Kurnool
+Dr.P Rangababu <br>
+Associate Professor,Department of Electronics and Communication Engineering, IIITDM Kurnool
