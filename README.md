@@ -25,15 +25,6 @@ A 4-bit × 4-bit unsigned multiplier built with a Dadda tree reduction scheme, d
 | Pins / Nets | 16 pins / 48 nets |
 | Tools | Virtuoso Schematic Editor, ADE L, Spectre APS, Visualization & Analysis XL, Layout Suite XL |
 
-### Key Results
-
-| Metric | Value |
-|--------|-------|
-| Average propagation delay (tpd) | -13.332 ps |
-| Average power | -45.38 µW |
-| Power-Delay Product (PDP) | 605.086a |
-| Energy-Delay Product (EDP) | -8.06724 e-27 |
-
 ---
 
 ## Design Hierarchy
