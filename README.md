@@ -1,6 +1,6 @@
 # 4-Bit Dadda Tree Multiplier (Full Custom Flow)
 
-![PDK](https://img.shields.io/badge/PDK-gpdk090%20(90nm)-blue)
+![GPDK](https://img.shields.io/badge/PDK-gpdk090%20(90nm)-blue)
 ![Tool](https://img.shields.io/badge/Tool-Cadence%20Virtuoso-red)
 ![Simulator](https://img.shields.io/badge/Simulator-Spectre%20APS-green)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
