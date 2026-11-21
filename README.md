@@ -356,7 +356,21 @@ Delays and power are magnitudes, so the signs in the ADE table should be ignored
 ![Layout](layout/dadda_mult_lay.jpeg)
 
 The layout was drawn in Virtuoso Layout Suite XL for the gpdk090 process. Standard CMOS layers are used: Nwell, Poly, Pimp/Nimp diffusion, Contacts and Metal1 onward for routing, with vias between metal layers. Transistors for each gate are placed in rows, with PMOS in n-well regions and NMOS in the substrate, and the VDD rails run along the top of the design. Signals are routed on Metal1/Metal2 and above.
+### 9.2 Post-Layout ADE L Outputs
+![Post-layout ADE L outputs](adl_postlaout/post_layout.png)
 
+
+### 9.3 RC Values
+![Extracted RC values](adl_postlaout/rc.png)
+
+The screenshot shows the extracted parasitic values and the calculation used to estimate the RC contribution.
+
+| Quantity | Calculation | Result |
+|----------|-------------|--------|
+| RC | 15.666 × 30.3213 | **475.02** (add unit from `rc.png`) |
+
+### 8.6 Post-Layout ADE L Outputs
+![Post-layout ADE L outputs](adl_postlaout/post_layout.png)
 
 ---
 
