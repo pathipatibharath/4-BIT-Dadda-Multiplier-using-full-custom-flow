@@ -308,7 +308,7 @@ To check a time instant, read `A` and `B` from the input plot and compare `p7…
 ## 8. Performance Analysis (Delay, Power, PDP, EDP)
 
 ### 8.1 ADE L Outputs
-![ADE L outputs](outputs/all_calculations.png)
+![ADE L outputs](adl_postlaout/original.png)
 
 The screenshot shows the ADE L setup (`tran 0 100n moderate`, VDD = 1 V, T = 27 °C, simulator `spectre aps`) and the measured outputs.
 
@@ -317,10 +317,10 @@ The screenshot shows the ADE L setup (`tran 0 100n moderate`, VDD = 1 V, T = 27 
 | Parameter | Description | Value |
 |-----------|-------------|-------|
 | TPHL | High-to-low propagation delay (set 1) | 10.0785 ns |
-| TPLH | Low-to-high propagation delay (set 1) | -10.1052 ns |
+| TPLH | Low-to-high propagation delay (set 1) | 10.1052 ns |
 | TPHL2 | High-to-low propagation delay (set 2) | 10.0353 ns |
-| TPLH2 | Low-to-high propagation delay (set 2) | -10.1126 ns |
-| I_avg | Average supply current | -45.3847 µA |
+| TPLH2 | Low-to-high propagation delay (set 2) | 10.1126 ns |
+| I_avg | Average supply current | 37.3203 µA |
 | VDD | Supply voltage | 1 V |
 
 ### 8.3 Formulas
@@ -336,11 +336,11 @@ The screenshot shows the ADE L setup (`tran 0 100n moderate`, VDD = 1 V, T = 27 
 
 | Quantity | Result |
 |----------|--------|
-| tpd (set 1)  | **-13.332p** |
-| P_avg | **-45.385 µW** |
-| PDP  | **605.086a** |
-| EDP  | **-8.06724e-27s** |
-| RC | 3.25578 x 260.741a | **848.915a** |
+| tpd (set 2)  | **17.332p** |
+| P_avg | **37.3203 µW** |
+| PDP  | **669.884** |
+| EDP  | **12.0241e-23s** |
+| RC | 15.666 x 30.3213 | **475.02a** |
 
 
 ### 8.6 Note on the Raw ADE Values
