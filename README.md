@@ -29,10 +29,10 @@ A 4-bit × 4-bit unsigned multiplier built with a Dadda tree reduction scheme, d
 
 | Metric | Value |
 |--------|-------|
-| Average propagation delay (tpd) | 10.09 ns |
-| Average power | 45.38 µW |
-| Power-Delay Product (PDP) | 458.02 fJ |
-| Energy-Delay Product (EDP) | 4.62 × 10⁻²¹ J·s |
+| Average propagation delay (tpd) | -13.332 ps |
+| Average power | -45.38 µW |
+| Power-Delay Product (PDP) | 605.086a |
+| Energy-Delay Product (EDP) | -8.06724 e-27 |
 
 ---
 
@@ -317,10 +317,10 @@ The screenshot shows the ADE L setup (`tran 0 100n moderate`, VDD = 1 V, T = 27 
 | Parameter | Description | Value |
 |-----------|-------------|-------|
 | TPHL | High-to-low propagation delay (set 1) | 10.0785 ns |
-| TPLH | Low-to-high propagation delay (set 1) | 10.1052 ns |
+| TPLH | Low-to-high propagation delay (set 1) | -10.1052 ns |
 | TPHL2 | High-to-low propagation delay (set 2) | 10.0353 ns |
-| TPLH2 | Low-to-high propagation delay (set 2) | 10.1126 ns |
-| I_avg | Average supply current | 45.3847 µA |
+| TPLH2 | Low-to-high propagation delay (set 2) | -10.1126 ns |
+| I_avg | Average supply current | -45.3847 µA |
 | VDD | Supply voltage | 1 V |
 
 ### 8.3 Formulas
@@ -334,16 +334,13 @@ The screenshot shows the ADE L setup (`tran 0 100n moderate`, VDD = 1 V, T = 27 
 
 ### 8.4 Calculations
 
-| Quantity | Calculation | Result |
-|----------|-------------|--------|
-| tpd (set 1) | (10.0785 ns + 10.1052 ns) / 2 | **10.092 ns** |
-| tpd (set 2) | (10.0353 ns + 10.1126 ns) / 2 | 10.074 ns |
-| P_avg | 1 V × 45.3847 µA | **45.385 µW** |
-| PDP | 45.3847 µW × 10.092 ns | **458.02 fJ** |
-| EDP | 458.02 fJ × 10.092 ns | **4.622 × 10⁻²¹ J·s** |
+| Quantity | Result |
+|----------|--------|
+| tpd (set 1)  | **-13.332p** |
+| P_avg | **-45.385 µW** |
+| PDP  | **605.086a** |
+| EDP  | **-8.06724e-27s** |
 | RC | 3.25578 x 260.741a | **848.915a** |
-
-PDP and EDP use set 1. Set 2 gives about 457.2 fJ and 4.61 × 10⁻²¹ J·s, within 0.2 % of set 1.
 
 
 ### 8.6 Note on the Raw ADE Values
