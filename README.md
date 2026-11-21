@@ -341,6 +341,7 @@ The screenshot shows the ADE L setup (`tran 0 100n moderate`, VDD = 1 V, T = 27 
 | P_avg | 1 V × 45.3847 µA | **45.385 µW** |
 | PDP | 45.3847 µW × 10.092 ns | **458.02 fJ** |
 | EDP | 458.02 fJ × 10.092 ns | **4.622 × 10⁻²¹ J·s** |
+| RC | 3.25578 x 260.741a | **848.915a** |
 
 PDP and EDP use set 1. Set 2 gives about 457.2 fJ and 4.61 × 10⁻²¹ J·s, within 0.2 % of set 1.
 
