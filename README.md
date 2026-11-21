@@ -169,7 +169,7 @@ All gates use W = 120 nm and L = 100 nm devices from `gpdk090_nmos1v` and `gpdk0
 A CMOS inverter has one PMOS pull-up and one NMOS pull-down with their gates tied together as the input. When the input is `0`, the PMOS conducts and the output is pulled to VDD. When the input is `1`, the NMOS conducts and the output is pulled to ground. Only one transistor conducts in steady state, so static power is almost zero. The inverter is also used inside the other gates to generate complemented signals.
 
 ```
-a_bar = ¬a
+a_bar = a
 ```
 
 ### 4.2 AND Gate
