@@ -308,7 +308,7 @@ To check a time instant, read `A` and `B` from the input plot and compare `p7…
 ## 8. Performance Analysis (Delay, Power, PDP, EDP)
 
 ### 8.1 ADE L Outputs
-![ADE L outputs](adl_postlaout/original.png)
+![ADE L outputs](adl_postlaout/orginal.png)
 
 The screenshot shows the ADE L setup (`tran 0 100n moderate`, VDD = 1 V, T = 27 °C, simulator `spectre aps`) and the measured outputs.
 
@@ -368,9 +368,6 @@ The screenshot shows the extracted parasitic values and the calculation used to 
 | Quantity | Calculation | Result |
 |----------|-------------|--------|
 | RC | 15.666 × 30.3213 | **475.02** (add unit from `rc.png`) |
-
-### 8.6 Post-Layout ADE L Outputs
-![Post-layout ADE L outputs](adl_postlaout/post_layout.png)
 
 ---
 
